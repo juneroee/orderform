@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0 30px;
+    background-color: #f7f7f7;
+}
+.left{
+    width: 290px;
+    height: 760px;
+    background-color: #ffffff;
+    position: fixed;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.middle{
+    width: 800px;
+    height: 700px;
+    background-color: #ffffff;
+    margin-left:330px ;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#info label{
+    padding-left: 100px;
+}
+.right{
+    width: 230px;
+    height: 760px;
+    background-color: #ffffff;
+    position: fixed;
+    display: inline-block;
+    margin-top: 10px;
+}
+.right p{
+    font-size: 60px;
+    padding-left: 100px;
+    line-height: 10px;
+}
+h4{
+    margin-top: -20px;
+}
+.food{
+    line-height: 30px;
+}
+#brgy{
+    margin-left: 20px;
+}
+#info label{
+    margin-right: 100px;
+}
+textarea{
+    resize: none;
+    vertical-align: top;
+}
+#name{
+    margin-left: 70px;
+}
+#address{
+    margin-left: 65px;
+}
+#Email {
+    margin-left: 70px;
+}
+.addsOn label{
+    margin-right: 10px;
+}
+.bun label{
+    margin-right: 30px;
+}
+#quantity{
+    width:70px;
+}
+.input img{
+    width: 150px;
+    height: 100px;
+}
+.bottom img{
+    width: 220px;
+    height: 200px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+#deliver label{
+    font-size: 50px;
+}
+a{
+    color: black;
+}
+

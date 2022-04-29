@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="NASAYAO, JUNE ROE G. ITBD">
+    <link rel="icon" href="Media/Logo.png" type="image/x-icon" />
+    <title>Order Form</title>
+    
+    <link rel="stylesheet" type="text/css" href="OrderForm.css" />
+</head>
+<body>
+
+    <div class="left">
+        <h1>NASAYAO'S</h1>
+        <h4>R E S T A U R A N T</h4>
+        <br><br>
+        <hr>
+        <div class="food">
+            <h1>FOOD</h1>
+            <a href="#burger"><h2>Burgers</h2></a>
+            <a href="#pasta"><h2>Pasta</h2></a>
+            <a href="#fries"><h2>Fries</h2></a>
+            <a href="#drinks"><h2>Drinks</h2></a>
+        </div>
+        <hr>
+        <a href="#deliver"><h2>Order Type</h2></a>
+        <a href="#feedback"><h2>Feedback</h2></a>
+        <hr>
+        <div class="loc">
+            <h2>LOCATION</h2>
+            <p><img src="NASAYAO_IMAGES_ITBD/loc.png" height="20px">#78 Emerald Street Greenpark Village</p>
+            <p id="brgy">Barangay San Isidro Cainta, Rizal</p>
+            <h3>Waze</h3>
+            <p><img src="NASAYAO_IMAGES_ITBD/waze.png" height="20px" style="margin-right: 5px;">Nasayao's Famous Restaurant</p>
+        </div>
+        
+    </div>
+    
+    <div class="middle" id="info">
+        <h1 style="text-align: center; margin-bottom: 50px;">CUSTOMER'S INFORMATION</h1>
+
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="Type your full name here" size="40">
+        <br><br><br>
+        <label for="address">Adress: </label>
+        <input type="text" name="address" id="address" placeholder="Type your complete address here" size="40">
+        <br><br><br>
+        <label for="Email">Email: </label>
+        <input type="text" name="Email" id="Email" placeholder="Type your E-mail here" size="40">
+        <br><br><br>
+        <label for="contact">Contact Number: </label>
+        <input type="number" name="contact" id="contact" placeholder="Type contact number" size="11" maxlength="11">
+        <br><br><br>
+        <label for="how">How to get there: </label>
+        <textarea name="how" id="" cols="50" rows="20"></textarea>
+
+    
+    </div>
+
+    <div class="right">
+        <p>O</p>
+        <p>R</p>
+        <p>D</p>
+        <p>E</p>
+        <p>R</p>
+        <br>
+        <p>F</p>
+        <p>O</p>
+        <p>R</p>
+        <p>M</p>
+    </div>
+
+    <div class="middle" id="burger" align="center">
+        <h1>BURGERS</h1>
+
+        <h2>Patty</h2>
+        <div class="patty">
+            <input type="radio" name="patty" id="single">
+            <label for="single">Single</label>
+
+            <input type="radio" name="patty" id="double">
+            <label for="double">Double</label>
+        </div>
+
+        <h2>Adds on</h2>
+        <div class="addsOn">
+            <input type="checkbox" name="addsON" id="cheese">
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" name="addsON" id="coleslaw">
+            <label for="coleslaw">Coleslaw</label>
+            <input type="checkbox" name="addsON" id="tomato">
+            <label for="tomato">Tomato</label>
+            <input type="checkbox" name="addsON" id="onion">
+            <label for="onion">Onion</label>
+            <input type="checkbox" name="addsON" id="cucumber">
+            <label for="cucumber">Cucumber</label>
+            <input type="checkbox" name="addsON" id="bacon">
+            <label for="bacon">Bacon</label>
+        </div>
+
+        <h2>Bun</h2>
+        <div class="bun">
+            <input type="radio" name="bun" id="white">
+            <label for="white">White</label>
+
+            <input type="radio" name="bun" id="wheat">
+            <label for="wheat">Wheat</label>
+
+            <input type="radio" name="bun" id="honey">
+            <label for="honey">Honey Oat</label>
+
+            <input type="radio" name="bun" id="sugar">
+            <label for="sugar">Sugar</label>
+            <br>
+            
+        </div>
+        <br>
+        <h2>Number of Order</h2>
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" placeholder="Quantity" size="2" maxlength="4">
+        <br><br><br><br><br>
+
+        <div class="bottom">
+            <img src="NASAYAO_IMAGES_ITBD/burger.jpg" alt="" style="margin-left: 12px;">
+            <img src="NASAYAO_IMAGES_ITBD/burger3.jpg" alt="">
+            <img src="NASAYAO_IMAGES_ITBD/burger2.jpg" alt="">
+        </div>    
+    </div>
+
+    <div class="middle" id="pasta" align="center" >
+        <h1>PASTA</h1>
+        <div class="input">
+        <img src="NASAYAO_IMAGES_ITBD/carbonara.jpg" alt="">
+        <input type="radio" name="pasta" id="carbonara">
+        <label for="carbonara">Carbonara</label>
+
+        <img src="NASAYAO_IMAGES_ITBD/pesto.jpg" alt="">
+        <input type="radio" name="pasta" id="pesto">
+        <label for="pesto">Pesto</label>
+
+        <img src="NASAYAO_IMAGES_ITBD/spagh.jpg" alt="">
+        <input type="radio" name="pasta" id="spag">
+        <label for="spag">Spaghetti</label>
+
+        <img src="NASAYAO_IMAGES_ITBD/sardines.jpg" alt="">
+        <input type="radio" name="pasta" id="sardines">
+        <label for="sardines">Sardines Pasta</label>
+
+        <img src="NASAYAO_IMAGES_ITBD/aglio.jpg" alt="">
+        <input type="radio" name="pasta" id="aglio">
+        <label for="aglio">Aglio e Olio</label>
+        
+        </div>
+        
+        <h2>Extras</h2>
+            <input type="checkbox" name="extras" id="extrach">
+            <label for="extrach">Extra Cheese</label>
+            <input type="checkbox" name="estras" id="sauce">
+            <label for="sauce">Extra Sauce</label>
+            <input type="checkbox" name="extras" id="tom">
+            <label for="tom">Tomato</label>
+            <input type="checkbox" name="estras" id="onion">
+            <label for="onion">Onion</label>
+            <h2>Number of Order</h2>
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" placeholder="Quantity" size="2" maxlength="4">
+        <div class="bottom">
+            <img src="NASAYAO_IMAGES_ITBD/raw.jpg" alt="" style="margin-left: 12px;">
+            <img src="NASAYAO_IMAGES_ITBD/raw1.jpg" alt="">
+            <img src="NASAYAO_IMAGES_ITBD/raw2.jpg" alt="">
+        </div>   
+        
+        
+    </div>
+   
+    <div class="middle" id="fries" align="center">
+        <h1>FRIES</h1>
+
+        <h2>Sizes</h2>
+        <input type="radio" name="fries" id="small">
+        <label for="small">Small</label>
+        <input type="radio" name="fries" id="med">
+        <label for="med">Medium</label>
+        <input type="radio" name="fries" id="large">
+        <label for="large">Large</label>
+
+        <h2>Flavor</h2>
+        <div class="input">
+
+            <img src="NASAYAO_IMAGES_ITBD/bbq.jpg" alt="">
+            <input type="radio" name="fries" id="bbq">
+            <label for="bbq">Barbecue</label>
+            <img src="NASAYAO_IMAGES_ITBD/cheese.jpg" alt="">
+            <input type="radio" name="fries" id="chees">
+            <label for="chees">Cheese</label>
+            <img src="NASAYAO_IMAGES_ITBD/sour.jpg" alt="">
+            <input type="radio" name="fries" id="sour">
+            <label for="sour">Sour Cream</label>
+        </div>
+
+        <h2>Number of Order</h2>
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" placeholder="Quantity" size="2" maxlength="4">
+        <br><br><br>
+        <div class="bottom">
+            <img src="NASAYAO_IMAGES_ITBD/fries.jpg" alt="" style="margin-left: 12px;">
+            <img src="NASAYAO_IMAGES_ITBD/fries3.jpg" alt="">
+            <img src="NASAYAO_IMAGES_ITBD/fries2.jpg" alt="">
+
+
+        </div>
+    </div>
+
+    <div class="middle" id="drinks" align="center">
+        
+        <h1>DRINKS</h1>
+        <div class="input">
+
+            <img src="NASAYAO_IMAGES_ITBD/soda.jpg" alt="">
+            <input type="radio" name="drinks" id="soda">
+            <label for="soda">Soda</label>
+            <img src="NASAYAO_IMAGES_ITBD/tea.jpg" alt="">
+            <input type="radio" name="drinks" id="tea">
+            <label for="tea">Iced Tea</label>
+            <img src="NASAYAO_IMAGES_ITBD/pine.jpg" alt="">
+            <input type="radio" name="drinks" id="pine">
+            <label for="pine">Pineapple Juice</label>
+            <img src="NASAYAO_IMAGES_ITBD/beer.jpg" alt="">
+            <input type="radio" name="drinks" id="beer">
+            <label for="beer">Beer</label>
+            <img src="NASAYAO_IMAGES_ITBD/cocktail.jpg" alt="">
+            <input type="radio" name="drinks" id="cock">
+            <label for="cock">cocktail</label>
+        </div>
+
+        <h2>Sizes</h2>
+        <input type="radio" name="drinks" id="small">
+        <label for="small">Small</label>
+        <input type="radio" name="drinks" id="med">
+        <label for="med">Medium</label>
+        <input type="radio" name="drinks" id="large">
+        <label for="large">Large</label>
+
+        <h2>Number of Order</h2>
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" placeholder="Quantity" size="2" maxlength="4">
+        <br><br><br>
+
+        <div class="bottom">
+            <img src="NASAYAO_IMAGES_ITBD/drink.jpg" alt="" style="margin-left: 12px;">
+            <img src="NASAYAO_IMAGES_ITBD/drink1.jpg" alt="">
+            <img src="NASAYAO_IMAGES_ITBD/drink2.jpg" alt="">
+        </div>
+
+    </div>
+
+    <div class="middle" id="deliver">
+        <img src="NASAYAO_IMAGES_ITBD/deliver.jpg" alt="" height="700px" style="float: left;">
+
+            
+        <h1 style="margin-top:250px">Type of Order</h1>
+        <input type="radio" name="deliver" id="del">
+        <label for="del">Deliver</label>
+        <br>
+        <input type="radio" name="deliver" id="pick">
+        <label for="pick">Pick Up</label>
+
+    </div>
+
+    <div class="middle" id="feedback" align="center">
+        
+        <h1>FEEDBACK</h1>
+        <h2>Please write your Feedback</h2>
+        <textarea name="how" id="" cols="70" rows="30"></textarea>
+
+
+
+    </div>
+
+    
+    
+
+      
+</body>    
+</html>
